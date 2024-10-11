@@ -1,0 +1,75 @@
+#header {
+  padding: 30px 0;
+  background: rgba(33, 74, 127, 0.951);
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(2px);
+  z-index: 99;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      width: 250px;
+    }
+    &--nav {
+      a {
+        margin-left: 30px;
+        font-size: 22px;
+        color: white;
+      }
+    }
+    select {
+      font-size: 20px;
+      outline: none;
+      border: none;
+      background: none;
+      margin-left: 30px;
+      font-size: 22px;
+      color: white;
+    }
+    .so{
+        width: 30px;
+        height: 30px;
+        color: white;
+        position: relative;
+    }
+    h3{
+        color: white;
+        position: fixed;
+        top: 10px;
+        right: 410px;
+        font-size: 18px;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &--searcg {
+      input {
+        font-size: 22px;
+        background: none;
+        color: white;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid white;
+        &::placeholder {
+          color: white;
+        }
+      }
+
+      button {
+        padding: 5px 25px;
+        margin-left: 20px;
+        border: 2px solid white;
+        border-radius: 8px;
+        background: none;
+        color: white;
+        font-size: 16px;
+      }
+    }
+  }
+}

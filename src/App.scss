@@ -1,0 +1,32 @@
+@import "../src/style/Header.scss";
+@import "../src/style/Hero.scss";
+@import "../src/style/TopRated.scss";
+@import "../src/style/Popular.scss";
+@import "../src/style/MovieCart.scss";
+@import "../src/style/MovieDetalis.scss";
+@import "../src/style/People.scss";
+@import "../src/style/Videos.scss";
+@import "../src/style/ActorDetalis.scss";
+@import "../src/style/PersonDetalis.scss";
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+html{
+  scroll-behavior: smooth;
+}

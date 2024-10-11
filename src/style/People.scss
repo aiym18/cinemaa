@@ -1,0 +1,18 @@
+#people{
+    padding: 60px 0;
+    .people{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        overflow-x: scroll;
+        &--tex{
+            img{
+                width: 200px;
+            }
+            h3{
+                text-align: center;
+            }
+        }
+        
+    }
+}

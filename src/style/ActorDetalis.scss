@@ -1,0 +1,27 @@
+#actors{
+    padding: 60px 0;
+    h4{
+        margin: 10px 0;
+    }
+    .actors{
+        display: flex;
+        flex: start; 
+        img{
+            width: 20%;
+        } 
+        
+        &--tex{
+            margin-left: 50px;
+            h3{
+                margin: 20px 0;
+            }
+            h2{
+                margin: 40px 0;
+            }
+            span{
+                color: blue;
+            }
+        }      
+    }
+    
+}

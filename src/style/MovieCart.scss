@@ -1,0 +1,21 @@
+.movieCart{
+    width: 20%;
+    height: 600px;
+    border: 2px solid black;
+    text-align: center;
+    overflow: hidden;
+    h1{
+        font-size: 24px;
+        // color: white;
+        // color: black;
+        margin: 20px;
+    }
+    img{
+        width: 100%;
+        transition: .6s;
+        &:hover{
+            transform: scale(1.1);
+            
+        }
+    }
+}

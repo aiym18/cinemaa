@@ -1,0 +1,19 @@
+#person {
+  .person {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    gap: 10px;
+    overflow-x: auto;
+    width: 1200px;
+    &--card {
+      img {
+        width: 180px;
+      }
+      .img1{
+        width: 200px;
+        height: 260px;
+      }
+    }
+  }
+}
