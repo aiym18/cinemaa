@@ -33,8 +33,8 @@ const Header = () => {
               onInput={(e)=>nav(`/search/${e.target.value}`)}
               onChange={(e) => setMovieName(e.target.value)}
               value={movieName}
-              type="Search"
-              placeholder="Search"
+              type="text"
+              placeholder="text"
             />
             {
               movieName.length?<button
