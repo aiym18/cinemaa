@@ -1,21 +1,44 @@
-.movieCart{
-    width: 20%;
-    height: 600px;
-    border: 2px solid black;
-    text-align: center;
-    overflow: hidden;
-    h1{
-        font-size: 24px;
-        // color: white;
-        // color: black;
-        margin: 20px;
+.movieCart {
+  width: 20%;
+  max-width: 250px;
+  min-width: 200px;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: #111;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: translateY(-10px);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: scale(1.05);
     }
-    img{
-        width: 100%;
-        transition: .6s;
-        &:hover{
-            transform: scale(1.1);
-            
-        }
-    }
+  }
+
+  h1 {
+    font-size: 20px;
+    color: white;
+    margin: 20px 10px;
+  }
+
+  h4 {
+    font-size: 17px;
+    color: rgb(179, 178, 178);
+  }
 }
